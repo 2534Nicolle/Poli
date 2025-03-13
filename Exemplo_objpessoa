@@ -1,0 +1,35 @@
+import 'Pessoa2.dart';
+
+void main() {
+  Pessoa2 pessoa = new Pessoa2();
+
+  pessoa.nome = "Tom Cruise";
+  pessoa.idade = 60;
+
+  print("==============Pessoa 1==============");
+  print("Nome: " + pessoa.nome);
+  print("Idade:  ${pessoa.idade}");
+
+  Pessoa2 pessoa2 = new Pessoa2.comNome("Messi", 36);
+
+  print("==============Pessoa 2==============");
+  print("Nome: " + pessoa2.nome);
+  print("Idade:  ${pessoa2.idade}");
+
+  Pessoa2 pessoa3 = new Pessoa2.comNome("Alan", 39);
+
+  print("==============Pessoa 3==============");
+  print("Nome: " + pessoa3.nome);
+  print("Idade:  ${pessoa3.idade}");
+
+  Pessoa2 pessoa4 = new Pessoa2.comNomeEndereco("Josh", "Vancouver");
+
+  print("==============Pessoa 4==============");
+  print("Nome: " + pessoa4.nome);
+  print("Endereço: " + pessoa4.end);
+
+  Pessoa2 pessoa5 = new Pessoa2.comIdade(39);
+
+  print("==============Pessoa 5==============");
+  print("Idade:  ${pessoa5.idade}");
+}
