@@ -1,1 +1,15 @@
+import 'Animal.dart';
+void main() {
 
+  Lobo lobo = new Lobo();
+  lobo.emitirSom();
+
+  Leao leao = new Leao();
+  leao.emitirSom();
+
+  Cachorro cachorro = new Cachorro();
+  cachorro.emitirSom();
+
+  Gato gato = new Gato();
+  gato.emitirSom();
+}
