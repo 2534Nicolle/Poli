@@ -1,0 +1,38 @@
+class Animal {
+  String? _nome;
+  String? _sexo;
+  String? _raca;
+
+  void emitirSom() {
+    print('blablabla');
+  }
+}
+
+class Lobo extends Animal {
+  @override
+  void emitirSom() {
+    print('Lobo está uivando');
+  }
+}
+
+class Leao extends Animal {
+  @override
+  void emitirSom() {
+    print('O leão está rugindo');
+  }
+}
+
+class Cachorro extends Animal {
+  @override
+  void emitirSom() {
+    print('O cachorro está latindo');
+  }
+}
+
+class Gato extends Animal {
+  @override
+  void emitirSom() {
+    print('O gato está miando');
+  }
+}
+
